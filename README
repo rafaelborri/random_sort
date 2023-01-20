@@ -12,3 +12,9 @@ How does it work
 	4) Checks if the list is sorted e. g. 4 <= 2 <= 3
 		- if it is not true it starts from beginning
 		- if it is true it returns the list
+
+Random sort vs Bubble sort
+list_to_sort = [2, 13, 5, 7, 9, 10, 34, 86, 12, 13]
+Bubble_sort_time = 0.025987625122070312 ms
+Random_sort_time = 81495.19205093384 ms
+Bubble sort is faster 3135923 times
