@@ -1,0 +1,10 @@
+RANDOM SORT
+
+How does it work
+	1) It takes 2 arguments: - get_info = True/False (Will show you all lists that it tries.)
+				 - list_to_sort = list (This list will be sorted.)
+	2) It makes a copy of list with strings e.g. [3, 4, 2] -> ["3", "4", "2"]
+	3) It randomly makes a new list from strings and convert it to int e. g. ["3", "4", "2"] -> [4, 2, 3]
+	4) Checks if the list is sorted e. g. 4 <= 2 <= 3
+		- if it is not true it starts from beginning
+		- if it is true it returns the list
